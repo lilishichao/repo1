@@ -1,0 +1,16 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    host: 127.0.0.1
+    username: hopeshop
+    password: hopeshop
+    virtual-host: /hopeshop
+hopeshop:
+  sms:
+    accessKeyId: LTAI4G8ByjoswcMrCpZDNj4t # 你自己的accessKeyId
+    accessKeySecret: rC8SHhNsqARDmqN2WNoDytmf6oteIP # 你自己的AccessKeySecret
+    signName: 希家的店 # 签名名称
+    verifyCodeTemplate: SMS_194050279 # 模板名称
